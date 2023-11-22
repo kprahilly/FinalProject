@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet" type="text/css" href="projectCSS.css">
+    <script defer src="projectJS.js"></script>
+</head>
+<body>
+    <div class="banner">
+        <h1>Build Your Meal Plan</h1>
+        <p>Author: Kyle Rahilly | Course: WEB-115 | Section: 0006</p>
+    </div>
+
+    <form id="mealPlanForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="goal">Goal for the Week:</label>
+        <textarea id="goal" rows="4" required></textarea>
+
+        <label for="breakfast">Breakfast:</label>
+        <input type="text" id="breakfast">
+
+        <label for="snack1">Snack 1:</label>
+        <input type="text" id="snack1">
+
+        <label for="lunch">Lunch:</label>
+        <input type="text" id="lunch">
+
+        <label for="snack2">Snack 2:</label>
+        <input type="text" id="snack2">
+
+        <label for="dinner">Dinner:</label>
+        <input type="text" id="dinner">
+
+
+        <button type="button" id="generateBtn">Generate Meal Plan</button>
+        <button type="button" id="clearBtn">Clear Planner</button>
+        <button type="button" id="printBtn">Print/Download Planner</button>
+    </form>
+
+</body>
+</html>
